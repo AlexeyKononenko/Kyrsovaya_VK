@@ -8,7 +8,7 @@ import time
 vk_token = input('Введите токен ВК АПИ: ')
 id_user = input('Введите ID ВК: ')
 url_vk = 'https://api.vk.com/method/photos.get'
-ya_token = 'AQAAAAAIYbfQAADLW0FCHvbi6UvXh8ZDO8QGBHo'
+ya_token = input('Введите токен Яндекса: )
 
 class VK_user:
     def __init__(self):
